@@ -1,0 +1,129 @@
+<!-- Indica que o documento é um arquivo HTML. -->
+<!DOCTYPE html>
+
+<!-- Define a linguagem do conteúdo da página. -->
+<html lang="pt-br">
+  <!-- Armazena informações sobre a página. -->
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Conjunto de caracteres que contém acentuação e ç. -->
+    <meta charset="utf-8" />
+
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/png" />
+    <!-- Configuração da janela de visualização ( responsividade ). -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Importação do arquivo CSS. -->
+    <link rel="stylesheet" type="text/css" href="assets/css/layout.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+
+    <!-- Título da aba do navegador -->
+    <title>alves admin</title>
+  </head>
+
+  <!-- Conteúdo apresentado na tela. -->
+  <body>
+    <a
+      class="whatsapp-link"
+      href="https://web.whatsapp.com/send?phone=5592988113878"
+      target="_blank"
+    >
+      <i class="fa fa-whatsapp"></i>
+    </a>
+    <!-- Agrupa os elementos que compõe o cabeçalho. -->
+    <header>
+      <a href="./layout.html" id="logo">
+        <img class="logo" src="./assets/img/logo.png" alt="alves" />
+      </a>
+
+      <button id="openMenu">&#9776;</button>
+
+      <nav id="menu">
+        <button id="closeMenu">X</button>
+
+        <a href="#">Início</a>
+        <a href="#">Sobre</a>
+        <a href="#servicos" >Serviços</a>
+      </nav>
+    </header>
+
+    <main class="hero">
+      <div class="text-hero">
+        <p>
+          Contabilidade eficaz é o alicerce do sucesso empresarial. Conte com
+          nossa experiência.
+        </p>
+      </div>
+    </main>
+
+    <div class="center" id="servicos">
+      <div class="carousel-wrapper">
+        <input id="slide1" type="radio" name="controls" checked="checked" />
+        <input id="slide2" type="radio" name="controls" />
+        <input id="slide3" type="radio" name="controls" />
+        <input id="slide4" type="radio" name="controls" />
+        <input id="slide5" type="radio" name="controls" />
+
+        <label for="slide1" class="nav-dot"></label>
+        <label for="slide2" class="nav-dot"></label>
+        <label for="slide3" class="nav-dot"></label>
+        <label for="slide4" class="nav-dot"></label>
+        <label for="slide5" class="nav-dot"></label>
+
+        <label for="slide1" class="left-arrow"> < </label>
+        <label for="slide2" class="left-arrow"> < </label>
+        <label for="slide3" class="left-arrow"> < </label>
+        <label for="slide4" class="left-arrow"> < </label>
+        <label for="slide5" class="left-arrow"> < </label>
+
+        <label for="slide1" class="right-arrow"> > </label>
+        <label for="slide2" class="right-arrow"> > </label>
+        <label for="slide3" class="right-arrow"> > </label>
+        <label for="slide4" class="right-arrow"> > </label>
+        <label for="slide5" class="right-arrow"> > </label>
+
+        <div class="carousel">
+          <ul>
+            <li>
+              <img src="./assets/img/contador.png" />
+            </li>
+            <li>
+              <img
+                src="./assets/img/documentacao.png"
+                alt=""
+              />
+            </li>
+            <li>
+              <img
+                src="https://raw.githubusercontent.com/osef-art/ministick/main/data/img/main/ministick-clip-3.gif"
+              />
+            </li>
+            <li>
+              <img
+                src="https://raw.githubusercontent.com/osef-art/osef-art.github.io/master/src/assets/wallpapers/smoke.jpg"
+              />
+            </li>
+            <li>
+              <img
+                src="https://images.ctfassets.net/9l3tjzgyn9gr/photo-157575/d224d518da6c26515a470a9b7e490df8/157575-honey-bun-baby.jpg?fm=jpg&fl=progressive&q=50&w=1200"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer></footer>
+
+    <script type="text/javascript" src="assets/js/script.js"></script>
+  </body>
+</html>
